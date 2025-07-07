@@ -1,48 +1,37 @@
-<!--hide-->
-# Unit testing with Jest
-<!--endhide-->
+# 🧪 Tu primera prueba unitaria con Jest
 
-> Important: 💻 This exercise is interactive. Please follow the instructions.
+Este proyecto es parte del bootcamp **Fullstack Developer 2025** de **4Geeks Academy**.
 
-Most developers today are required not only to write code, but also need to write code to test their own code 😱, yes... really.
+## ✅ ¿Qué incluye?
 
-Today we are going to be using the [Jest framework](https://jestjs.io/) to create our first tests.
+- Pruebas unitarias en JavaScript usando **Jest**.
+- Archivo `app.js` con funciones de conversión monetaria.
+- Archivo `app.test.js` con pruebas que validan los cálculos.
 
-<onlyfor saas="false" withBanner="false">
-  
-## 🌱 How to start this project
+## 📂 Estructura del proyecto
 
-This project comes with the necessary files to start working immediately.
-
-We recommend opening this very same repository using a provisioning tool like [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recommended) or [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternatively, you can clone it on your local computer using the `git clone` command.
-
-This is the repository you need to open:
-
-```text
-https://github.com/breatheco-de/exercise-unit-test-with-jest
-```
-
-**👉 Please follow these steps on** [how to start a coding project](https://4geeks.com/lesson/how-to-start-a-project).
+├── app.js
+├── app.test.js
+├── package.json
+├── README.md
 
 
-> 💡 Important: Remember to save and upload your code to GitHub by creating a new repository, updating the remote (`git remote set-url origin <your new url>`), and uploading the code to your new repository using the `add`, `commit` and `push` commands from the git terminal.
 
-Then follow these instructions:
+## 🚀 Cómo correr los tests
 
-1. Get into the exercise folder: `$ cd exercise-unit-test-with-jest`
-2. Download learnpack globally (if you don't have it already): `$ npm i @learnpack/learnpack -g`
-3. Start the exercise: `$ learnpack start`
+1. Instala las dependencias:
 
-</onlyfor>
+```bash
+npm install
+Ejecuta los tests:
 
-## What is this exercise about?
+bash
+Copiar
+Editar
+npm test
+✔ Validado
+✅ Todos los tests pasan exitosamente.
 
-We are going to be using the Jest library to build a program capable of converting numeric values from one currency to another:
+✅ learnpack audit completado sin errores.
 
-| Function name     | Description                                                           |
-| ----------------- | --------------------------------------------------------------------- |
-| fromDollarToYen   | Receives a dollar amount and returns the equivalent amount in Japan Yen |
-| fromEuroToDollar  | Receives a Euro amount and returns the equivalent amount in US Dollar |
-| fromYenToPound    | Receives a Yen amount and returns the equivalent amount in England Pound |
-
-This and many other projects are built by students as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
+✅ Organización de archivos corregida.
