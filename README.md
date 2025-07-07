@@ -1,4 +1,4 @@
-# 🧪 primera unitaria con Jest
+# 🧪 Primera prueba unitaria con Jest
 
 Este proyecto es parte del bootcamp **Fullstack Developer 2025** de **4Geeks Academy**.
 
