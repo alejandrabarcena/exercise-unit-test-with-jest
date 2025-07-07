@@ -28,9 +28,9 @@ Ejecuta los tests:
 bash
 
 npm test
-✔ Validado
-✅ Todos los tests pasan exitosamente.
 
-✅ learnpack audit completado sin errores.
+# Pruebas unitarias con Jest
+Este repositorio contiene funciones de conversión monetaria y sus respectivas pruebas unitarias usando Jest.
 
-✅ Organización de archivos corregida.
+✅ Todas las pruebas pasan correctamente.  
+🔍 Validado con LearnPack (`learnpack audit`).  
