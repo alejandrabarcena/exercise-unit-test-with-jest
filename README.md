@@ -26,8 +26,7 @@ npm install
 Ejecuta los tests:
 
 bash
-Copiar
-Editar
+
 npm test
 ✔ Validado
 ✅ Todos los tests pasan exitosamente.
